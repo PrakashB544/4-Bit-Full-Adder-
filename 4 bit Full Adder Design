@@ -1,0 +1,10 @@
+module bit_4_add (s,c,a,b,cin);
+  input[0:3] a,b;
+  input cin;
+  output reg[0:3] s;
+  output reg c;
+  
+  always@(a,b,cin)
+  {c,s}=a+b+cin; 
+endmodule 
+  
